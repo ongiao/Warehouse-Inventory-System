@@ -28,7 +28,15 @@ Before running anything in this project, don't forget to download ***MySql*** on
 
 After that, you also need to execute the [wis.sql](https://github.com/ongiao/Warehouse-Inventory-System/blob/master/warehouse-inventory-system/src/main/resources/wis.sql) file to create needed tables and data. If you request the application without executing the sql file, it will go wrong.
 
-After that, you can use any Java IDE (recommand IntelliJ IDEA) to open the whole project. It will need several time to download the dependencies. When everything is ready, you can simply right click the ***WisApplication*** file to run it.
+After that, you can use any Java IDE (recommand IntelliJ IDEA) to open this project folder (see below image). 
+
+![wxxxx](https://github.com/ongiao/Warehouse-Inventory-System/blob/master/warehouse-inventory-system/src/main/resources/images/WX1111.png)
+
+After openning the project, it will need several time to download the dependencies. For the first time you open the project, if the resource package is not marked as resoource folders, you should do it by:
+
+![wx22222](https://github.com/ongiao/Warehouse-Inventory-System/blob/master/warehouse-inventory-system/src/main/resources/images/WX222222.png)
+
+When everything is ready, you can simply right click the ***WisApplication*** file to run it.
 
 ![image-20200705202242752](https://github.com/ongiao/Warehouse-Inventory-System/blob/master/warehouse-inventory-system/src/main/resources/images/image-20200705202242752.png)
 
