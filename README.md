@@ -91,6 +91,16 @@ You can upload csv files by choosing the csv file and clicking the upload button
 
 ![image-20200705204357525](https://github.com/ongiao/Warehouse-Inventory-System/blob/master/warehouse-inventory-system/src/main/resources/images/image-20200705204357525.png)
 
+This is the example for product csv file:
+
+![image-20200705234239630](/Users/chenjunxing/Library/Application Support/typora-user-images/image-20200705234239630.png)
+
+And this is the example for quanties csv file:
+
+![image-20200705234328537](/Users/chenjunxing/Library/Application Support/typora-user-images/image-20200705234328537.png)
+
+We should follow the structure of these csv file when you uploading csv file to the application.
+
 
 
 ### Short Daily
