@@ -103,6 +103,12 @@ We should follow the structure of these csv file when you uploading csv file to 
 
 
 
+### Test Guide
+
+In the idea IDE, you can just right click the ***src/test/java*** and choose "Run All Tests".
+
+
+
 ### Short Daily
 
 #### Day One:

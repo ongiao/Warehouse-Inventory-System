@@ -27,25 +27,49 @@ public class WarehouseInventoryServiceTest {
 
     @Test
     public void testGetWareHouseInventoryByCode() {
-        String code = "FM-HKTV08";
+        // we should add record before testing get method
+        Map<String, Object> addInfo = new HashMap<>();
 
-        Map<String, Object> result = service.getWareHouseInventoryByCode(code);
+        addInfo.put("productName", "nike running shoes");
+        addInfo.put("productCode", "FM-HKTV22");
+        addInfo.put("locationName", "NP");
+        addInfo.put("quanty", 10);
+        addInfo.put("perWeight", 100);
+        service.addInventory(addInfo);
+
+        Map<String, Object> result = service.getWareHouseInventoryByCode("FM-HKTV22");
 
         Assert.assertEquals(true, result.get("result"));
         Assert.assertEquals("success", result.get("msg"));
+
+        // delete record
+        service.removeInventory("FM-HKTV22", "NP");
     }
 
     @Test
     public void testGetWareHouseInventoryByCodeAndLocation() {
+        // we should add record before testing get method
+        Map<String, Object> addInfo = new HashMap<>();
+
+        addInfo.put("productName", "nike running shoes");
+        addInfo.put("productCode", "FM-HKTV22");
+        addInfo.put("locationName", "NP");
+        addInfo.put("quanty", 10);
+        addInfo.put("perWeight", 100);
+        service.addInventory(addInfo);
+
         Map<String, Object> map = new HashMap<>();
 
-        map.put("productCode", "FM-HKTV08");
-        map.put("targetLocation", "TKU");
+        map.put("productCode", "FM-HKTV22");
+        map.put("targetLocation", "NP");
 
         Map<String, Object> result = service.getWareHouseInventoryByCodeAndLocation(map);
 
         Assert.assertEquals(true, result.get("result"));
         Assert.assertEquals("success", result.get("msg"));
+
+        // delete record
+        service.removeInventory("FM-HKTV22", "NP");
     }
 
     @Test
@@ -61,26 +85,25 @@ public class WarehouseInventoryServiceTest {
         Map<String, Object> result = service.addInventory(addInfo);
 
         Assert.assertEquals(true, result.get("result"));
-        Assert.assertEquals("You have successfully insert inventory!", result.get("msg"));
+        Assert.assertEquals("You have successfully insert a inventory!", result.get("msg"));
+
+        // delete record after testing
+        service.removeInventory("FM-HKTV22", "NP");
     }
 
     @Test
     public void testAddInventories() {
-//        Map<String, Object> addInfo = new HashMap<>();
-//
-//        addInfo.put("productName", "nike running shoes");
-//        addInfo.put("productCode", "FM-HKTV22");
-//        addInfo.put("locationName", "NP");
-//        addInfo.put("quanty", 10);
-//        addInfo.put("perWeight", 100);
-
         List<WarehouseInventory> list = new ArrayList<>();
-        list.add(new WarehouseInventory("earpods", "FM-HKTV23", "NP", 20, 30));
+        WarehouseInventory w = new WarehouseInventory("earpods", "FM-HKTV23", "NP", 20, 30);
+        list.add(w);
 
         Map<String, Object> result = service.uploadInventoryCsv(list);
 
         Assert.assertEquals(true, result.get("result"));
         Assert.assertEquals("You have successfully insert inventories!", result.get("msg"));
+
+        // delete record after testing
+        service.removeInventory(w.getProductCode(), w.getLocationName());
     }
 
     @Test
@@ -103,21 +126,5 @@ public class WarehouseInventoryServiceTest {
 
         Assert.assertEquals(true, result.get("result"));
         Assert.assertEquals("You have successfully finished transfermation!", result.get("msg"));
-
-//        Map<String, Object> sourceInfo = new HashMap<>();
-//        sourceInfo.put("productCode", "FM-HKTV23");
-//        sourceInfo.put("targetLocation", "NP");
-//        Map<String, Object> sourceResult = service.getWareHouseInventoryByCodeAndLocation(sourceInfo);
-//
-//        Map<String, Object> targetInfo = new HashMap<>();
-//        targetInfo.put("productCode", "FM-HKTV23");
-//        targetInfo.put("targetLocation", "CWB");
-//        Map<String, Object> targetResult = service.getWareHouseInventoryByCodeAndLocation(sourceInfo);
-//
-//        WarehouseInventory source = ((ArrayList)sourceResult.get("data"));
-//        WarehouseInventory target = targetResult.get("data");
-//
-//        Assert.assertEquals(15, source.getQuanty());
-//        Assert.assertEquals(15, target.getQuanty());
     }
 }

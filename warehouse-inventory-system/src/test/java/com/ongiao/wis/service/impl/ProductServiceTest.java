@@ -16,26 +16,44 @@ public class ProductServiceTest {
 
     @Test
     public void testGetProduct() {
-        Map<String, Object> productMap = iProductService.getProduct("FM-HKTV01");
+        String code = "FM-HKTV66";
+        String name = "typec charger";
+        double weight = 30;
+
+        iProductService.addProduct(name, code, weight);
+
+        Map<String, Object> productMap = iProductService.getProduct("FM-HKTV66");
 
         Product product = (Product) productMap.get("data");
 
         Assert.assertEquals(true, productMap.get("result"));
         Assert.assertEquals("success", productMap.get("msg"));
-        Assert.assertEquals("face mask", product.getName());
-        Assert.assertEquals("FM-HKTV01", product.getCode());
-        Assert.assertEquals("100.0", String.valueOf(product.getWeight()));
+        Assert.assertEquals("typec charger", product.getName());
+        Assert.assertEquals("FM-HKTV66", product.getCode());
+        Assert.assertEquals("30.0", String.valueOf(product.getWeight()));
+        iProductService.removeProduct(code);
     }
 
-//    @Test
-//    public void TestGetProductList() {
-//
-//        Map<String, Object> productMap = iProductService.getProductLists();
-//
-//        Assert.assertEquals(true, productMap.get("result"));
-//        Assert.assertEquals("success", productMap.get("msg"));
-//        Assert.assertEquals(ArrayList.class.toString(), productMap.get("data").getClass().toString());
-//    }
+    @Test
+    public void TestGetProductList() {
+        // insert before getting
+        List<Product> list = new ArrayList<>();
+
+        Product product1 = new Product("face paper", "FM-HKTV11", 10);
+        Product product2 = new Product("chair", "FM-HKTV12", 170);
+
+        list.add(product1);
+        list.add(product2);
+        iProductService.addProducts(list);
+
+        Map<String, Object> productMap = iProductService.getProducts();
+
+        Assert.assertEquals(true, productMap.get("result"));
+        Assert.assertEquals("success", productMap.get("msg"));
+        Assert.assertEquals(ArrayList.class.toString(), productMap.get("data").getClass().toString());
+        iProductService.removeProduct("FM-HKTV11");
+        iProductService.removeProduct("FM-HKTV12");
+    }
 
     @Test
     public void testAddProducts() {
@@ -43,16 +61,16 @@ public class ProductServiceTest {
 
         Product product1 = new Product("face paper", "HKTV11", 10);
         Product product2 = new Product("chair", "HKTV12", 170);
-        Product product3 = new Product("SSD", "HKTV13", 50);
 
         list.add(product1);
         list.add(product2);
-        list.add(product3);
 
         Map<String, Object> map = iProductService.addProducts(list);
 
         Assert.assertEquals(true, map.get("result"));
         Assert.assertEquals("You have successfully insert products!", map.get("msg"));
+        iProductService.removeProduct(product1.getCode());
+        iProductService.removeProduct(product2.getCode());
     }
 
     @Test
@@ -61,21 +79,25 @@ public class ProductServiceTest {
 
         Product product1 = new Product("face paper", "HKTV11", 10);
         Product product2 = new Product("chair", "HKTV12", 170);
-        Product product3 = new Product("SSD", "HKTV13", 50);
 
         list.add(product1);
         list.add(product2);
-        list.add(product3);
 
         Map<String, Object> map = iProductService.uploadProductCsv(list);
 
         Assert.assertEquals(true, map.get("result"));
         Assert.assertEquals("Successfully insert all products by csv file!", map.get("msg"));
+        iProductService.removeProduct(product1.getCode());
+        iProductService.removeProduct(product2.getCode());
     }
 
     @Test
     public void testRemoveProduct() {
-        String code = "FM-HKTV01";
+        String code = "FM-HKTV66";
+        String name = "typec charger";
+        double weight = 30;
+
+        iProductService.addProduct(name, code, weight);
 
         Map<String, Object> map = iProductService.removeProduct(code);
 
@@ -83,7 +105,8 @@ public class ProductServiceTest {
         Assert.assertEquals("You have successfully remove the product!", map.get("msg"));
 
         Map<String, Object> productMap = iProductService.getProduct(code);
-        Product product = (Product) productMap.get("data");
-        Assert.assertEquals(0, product.getStatus());
+        Assert.assertEquals(false, productMap.get("result"));
+        Assert.assertEquals("We can't find the product you have specified", productMap.get("msg"));
+        Assert.assertEquals(null, productMap.get("data"));
     }
 }

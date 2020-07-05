@@ -9,7 +9,7 @@ import java.util.List;
 public class ProductQuantyCsvReaderTest {
     @Test
     public void TestProductQuantyCsvRead() {
-        String path = "/Users/chenjunxing/Desktop/Documents/warehouse-inventory-system/src/test/java/com/ongiao/wis/utils/impl/quanty.csv";
+        String path = "quanty.csv";
         ProductQuantyCsvReader reader = new ProductQuantyCsvReader();
         List<WarehouseInventory> warehouseInventories = reader.readProductInventory(path);
 

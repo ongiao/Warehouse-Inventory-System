@@ -28,13 +28,13 @@
         </foreach>
     </insert>
 
-    <!--<delete id="removeProduct" parameterType="com.ongiao.wis.pojo.Product">-->
-        <!--delete from tb_product where code = #{code}-->
-    <!--</delete>-->
-    <update id="removeProduct" parameterType="string">
-        update tb_product set status = 0, delete_time = current_timestamp
-        where code = #{code}
-    </update>
+    <delete id="removeProduct" parameterType="com.ongiao.wis.pojo.Product">
+        delete from tb_product where code = #{code}
+    </delete>
+    <!--<update id="removeProduct" parameterType="string">-->
+        <!--update tb_product set status = 0, delete_time = current_timestamp-->
+        <!--where code = #{code}-->
+    <!--</update>-->
 
     <!--<insert id="addProductsIfNotExist" parameterType="list">-->
         <!--insert into tb_product(product_code, location_name, quanty)-->

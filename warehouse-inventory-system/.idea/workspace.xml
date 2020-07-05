@@ -37,44 +37,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="WarehouseInventoryServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/service/impl/WarehouseInventoryServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="74" column="11" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
+            <state relative-caret-position="469">
+              <caret line="221" column="44" selection-start-line="221" selection-start-column="44" selection-end-line="221" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductCsvReaderTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ongiao/wis/utils/impl/ProductCsvReaderTest.java">
+      <file leaf-file-name="IWarehouseInventoryService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/service/IWarehouseInventoryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/controller/admin/ProductController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WarehouseInventoryController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/controller/admin/WarehouseInventoryController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="138" column="36" selection-start-line="138" selection-start-column="36" selection-end-line="138" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -82,65 +58,69 @@
       <file leaf-file-name="ProductServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/service/impl/ProductServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2335">
-              <caret line="54" column="77" selection-start-line="54" selection-start-column="77" selection-end-line="54" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WarehouseInventoryServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/service/impl/WarehouseInventoryServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="210" column="1" lean-forward="true" selection-start-line="210" selection-start-column="1" selection-end-line="210" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WarehouseServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/service/impl/WarehouseServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="24" column="83" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/controller/BaseController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-              <folding>
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WarehouseController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/controller/admin/WarehouseController.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="25" column="54" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/controller/admin/IndexController.java">
+      <file leaf-file-name="ProductServiceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ongiao/wis/service/impl/ProductServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="366">
+              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WarehouseInventoryServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ongiao/wis/service/impl/WarehouseInventoryServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2088">
+              <caret line="127" column="97" selection-start-line="127" selection-start-column="97" selection-end-line="127" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WarehouseInventoryMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/dao/WarehouseInventoryMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WarehouseInventoryMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/dao/WarehouseInventoryMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/dao/ProductMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/dao/ProductMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="60" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/products.csv">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -181,17 +161,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/pojo/WarehouseInventory.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/themes/default/warehouse_inventory_page.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/themes/error/error_page.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/dao/ProductMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/pojo/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/service/IProductService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ongiao/wis/service/impl/ProductServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ongiao/wis/service/impl/WarehouseServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ongiao/wis/service/impl/WarehouseInventoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/dao/WarehouseInventoryMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/dao/WarehouseInventoryMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/service/IWarehouseInventoryService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ongiao/wis/service/impl/WarehouseInventoryServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ongiao/wis/utils/impl/ProductQuantyCsvReaderTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ongiao/wis/utils/MybatisUtilsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/utils/UploadHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ongiao/wis/utils/UploadHelperTest.java" />
@@ -205,7 +178,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/constants/FIle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/constants/FilePath.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/service/impl/WarehouseInventoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/utils/impl/FileLineReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/utils/impl/ProductQuantyCsvReader.java" />
         <option value="$PROJECT_DIR$/src/main/resources/wis.sql" />
@@ -220,11 +192,19 @@
         <option value="$PROJECT_DIR$/src/test/java/com/ongiao/wis/dao/ProductDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/controller/admin/IndexController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ongiao/wis/utils/impl/ProductCsvReaderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/controller/admin/WarehouseInventoryController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/controller/admin/ProductController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/service/impl/WarehouseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ongiao/wis/utils/impl/ProductCsvReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ongiao/wis/utils/impl/ProductQuantyCsvReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/dao/ProductMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/service/IWarehouseInventoryService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ongiao/wis/service/impl/WarehouseInventoryServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/service/impl/WarehouseInventoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/dao/WarehouseInventoryMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/dao/WarehouseInventoryMapper.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ongiao/wis/service/impl/ProductServiceTest.java" />
       </list>
     </option>
   </component>
@@ -317,6 +297,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wis" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="warehouse-inventory-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="warehouse-inventory-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wis" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -364,6 +353,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wis" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="warehouse-inventory-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="warehouse-inventory-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wis" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -403,21 +401,21 @@
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/ongiao/wis/utils/impl" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ongiao.wis.dao" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/images" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/resources/templates/themes/default" />
-      <recent name="$PROJECT_DIR$/src/test/java/com/ongiao/wis/utils/impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ongiao.wis.utils" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/ongiao/wis/utils/impl" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources/images" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/themes/default" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/ongiao/wis/utils/impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -432,23 +430,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.WisApplication">
+  <component name="RunManager" selected="JUnit.All in warehouse-inventory-system">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ProductCsvReaderTest.TestProductCsvRead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in warehouse-inventory-system" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="warehouse-inventory-system" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ProductServiceTest.TestGetProductList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="warehouse-inventory-system" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ongiao.wis.utils.impl.*" />
+          <option name="PATTERN" value="com.ongiao.wis.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ongiao.wis.utils.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.ongiao.wis.utils.impl.ProductCsvReaderTest" />
-      <option name="METHOD_NAME" value="TestProductCsvRead" />
+      <option name="PACKAGE_NAME" value="com.ongiao.wis.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.ongiao.wis.service.impl.ProductServiceTest" />
+      <option name="METHOD_NAME" value="TestGetProductList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -459,19 +474,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ProductDaoTest.testAddProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WarehouseInventoryServiceTest.testAddInventories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="warehouse-inventory-system" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ongiao.wis.dao.*" />
+          <option name="PATTERN" value="com.ongiao.wis.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ongiao.wis.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.ongiao.wis.dao.ProductDaoTest" />
-      <option name="METHOD_NAME" value="testAddProduct" />
+      <option name="PACKAGE_NAME" value="com.ongiao.wis.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.ongiao.wis.service.impl.WarehouseInventoryServiceTest" />
+      <option name="METHOD_NAME" value="testAddInventories" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -482,19 +497,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UserTest.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WarehouseInventoryServiceTest.testAddInventory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="warehouse-inventory-system" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ongiao.wis.*" />
+          <option name="PATTERN" value="com.ongiao.wis.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ongiao.wis" />
-      <option name="MAIN_CLASS_NAME" value="com.ongiao.wis.UserTest" />
-      <option name="METHOD_NAME" value="Test1" />
+      <option name="PACKAGE_NAME" value="com.ongiao.wis.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.ongiao.wis.service.impl.WarehouseInventoryServiceTest" />
+      <option name="METHOD_NAME" value="testAddInventory" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -505,19 +520,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="WarehouseInventoryTest.TestWarehouseInventory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WarehouseInventoryServiceTest.testGetWareHouseInventoryByCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="warehouse-inventory-system" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ongiao.wis.pojo.*" />
+          <option name="PATTERN" value="com.ongiao.wis.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ongiao.wis.pojo" />
-      <option name="MAIN_CLASS_NAME" value="com.ongiao.wis.pojo.WarehouseInventoryTest" />
-      <option name="METHOD_NAME" value="TestWarehouseInventory" />
+      <option name="PACKAGE_NAME" value="com.ongiao.wis.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.ongiao.wis.service.impl.WarehouseInventoryServiceTest" />
+      <option name="METHOD_NAME" value="testGetWareHouseInventoryByCode" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -544,16 +559,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="WisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="warehouse-inventory-system" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ongiao.wis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ongiao.wis.WisApplication" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -577,19 +582,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.WarehouseInventoryTest.TestWarehouseInventory" />
-      <item itemvalue="JUnit.ProductDaoTest.testAddProduct" />
-      <item itemvalue="Spring Boot.WisApplication" />
-      <item itemvalue="JUnit.UserTest.Test1" />
-      <item itemvalue="JUnit.ProductCsvReaderTest.TestProductCsvRead" />
+      <item itemvalue="JUnit.All in warehouse-inventory-system" />
+      <item itemvalue="JUnit.WarehouseInventoryServiceTest.testAddInventories" />
+      <item itemvalue="JUnit.WarehouseInventoryServiceTest.testAddInventory" />
+      <item itemvalue="JUnit.WarehouseInventoryServiceTest.testGetWareHouseInventoryByCode" />
+      <item itemvalue="JUnit.ProductServiceTest.TestGetProductList" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.WisApplication" />
-        <item itemvalue="JUnit.ProductCsvReaderTest.TestProductCsvRead" />
-        <item itemvalue="JUnit.ProductDaoTest.testAddProduct" />
-        <item itemvalue="JUnit.UserTest.Test1" />
-        <item itemvalue="JUnit.WarehouseInventoryTest.TestWarehouseInventory" />
+        <item itemvalue="JUnit.All in warehouse-inventory-system" />
+        <item itemvalue="JUnit.ProductServiceTest.TestGetProductList" />
+        <item itemvalue="JUnit.WarehouseInventoryServiceTest.testAddInventory" />
+        <item itemvalue="JUnit.WarehouseInventoryServiceTest.testGetWareHouseInventoryByCode" />
+        <item itemvalue="JUnit.WarehouseInventoryServiceTest.testAddInventories" />
       </list>
     </recent_temporary>
   </component>
@@ -609,47 +614,47 @@
       <workItem from="1593953955787" duration="113000" />
       <workItem from="1593954126134" duration="660000" />
       <workItem from="1593958218520" duration="16000" />
-      <workItem from="1593963306933" duration="1193000" />
+      <workItem from="1593963306933" duration="4788000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProductDaoTest_testAddProduct - 2020.07.05 at 13h 59m 42s.xml">
-      <configuration name="ProductDaoTest.testAddProduct" configurationId="JUnit" />
+    <history-entry file="WarehouseInventoryServiceTest_testAddInventory - 2020.07.06 at 01h 57m 51s.xml">
+      <configuration name="WarehouseInventoryServiceTest.testAddInventory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductDaoTest_testAddProduct - 2020.07.05 at 14h 10m 20s.xml">
-      <configuration name="ProductDaoTest.testAddProduct" configurationId="JUnit" />
+    <history-entry file="WarehouseInventoryServiceTest_testAddInventory - 2020.07.06 at 01h 58m 12s.xml">
+      <configuration name="WarehouseInventoryServiceTest.testAddInventory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductDaoTest_testAddProduct - 2020.07.05 at 14h 13m 24s.xml">
-      <configuration name="ProductDaoTest.testAddProduct" configurationId="JUnit" />
+    <history-entry file="WarehouseInventoryServiceTest_testAddInventory - 2020.07.06 at 01h 58m 40s.xml">
+      <configuration name="WarehouseInventoryServiceTest.testAddInventory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductDaoTest_testAddProduct - 2020.07.05 at 14h 15m 38s.xml">
-      <configuration name="ProductDaoTest.testAddProduct" configurationId="JUnit" />
+    <history-entry file="All_in_warehouse-inventory-system - 2020.07.06 at 01h 58m 53s.xml">
+      <configuration name="All in warehouse-inventory-system" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductDaoTest_testAddProduct - 2020.07.05 at 14h 18m 56s.xml">
-      <configuration name="ProductDaoTest.testAddProduct" configurationId="JUnit" />
+    <history-entry file="WarehouseInventoryServiceTest_testGetWareHouseInventoryByCode - 2020.07.06 at 02h 01m 17s.xml">
+      <configuration name="WarehouseInventoryServiceTest.testGetWareHouseInventoryByCode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductDaoTest_testAddProduct - 2020.07.05 at 14h 20m 46s.xml">
-      <configuration name="ProductDaoTest.testAddProduct" configurationId="JUnit" />
+    <history-entry file="All_in_warehouse-inventory-system - 2020.07.06 at 02h 01m 31s.xml">
+      <configuration name="All in warehouse-inventory-system" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductDaoTest_testAddProduct - 2020.07.05 at 14h 21m 24s.xml">
-      <configuration name="ProductDaoTest.testAddProduct" configurationId="JUnit" />
+    <history-entry file="WarehouseInventoryServiceTest_testAddInventory - 2020.07.06 at 02h 02m 14s.xml">
+      <configuration name="WarehouseInventoryServiceTest.testAddInventory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_Test1 - 2020.07.05 at 20h 02m 35s.xml">
-      <configuration name="UserTest.Test1" configurationId="JUnit" />
+    <history-entry file="All_in_warehouse-inventory-system - 2020.07.06 at 02h 02m 26s.xml">
+      <configuration name="All in warehouse-inventory-system" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductDaoTest_testAddProduct - 2020.07.05 at 20h 03m 17s.xml">
-      <configuration name="ProductDaoTest.testAddProduct" configurationId="JUnit" />
+    <history-entry file="All_in_warehouse-inventory-system - 2020.07.06 at 02h 05m 42s.xml">
+      <configuration name="All in warehouse-inventory-system" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductCsvReaderTest_TestProductCsvRead - 2020.07.05 at 23h 51m 25s.xml">
-      <configuration name="ProductCsvReaderTest.TestProductCsvRead" configurationId="JUnit" />
+    <history-entry file="All_in_warehouse-inventory-system - 2020.07.06 at 02h 13m 02s.xml">
+      <configuration name="All in warehouse-inventory-system" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126725000" />
+    <option name="totallyTimeSpent" value="130320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="10" />
@@ -673,7 +678,7 @@
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3363184" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32935324" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21246007" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19329074" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -700,28 +705,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE-sources.jar!/org/springframework/web/multipart/commons/CommonsMultipartFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="91" column="11" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ongiao/wis/utils/UploadHelperTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/pojo/Warehouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ongiao/wis/pojo/WarehouseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -745,13 +728,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/log/all.log">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/dao/ProductMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/pojo/Product.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -791,31 +767,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ongiao/wis/service/impl/ProductServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-241">
-          <caret line="54" column="86" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="54" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ongiao/wis/service/impl/WarehouseInventoryServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1701">
-          <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ongiao/wis/utils/MybatisUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ongiao/wis/utils/impl/ProductQuantyCsvReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -826,13 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/service/IWarehouseInventoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -883,13 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="928">
           <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/dao/ProductMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -973,13 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ongiao/wis/utils/impl/ProductCsvReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/controller/admin/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
@@ -1010,24 +944,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/service/impl/WarehouseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="24" column="83" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quanty.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ongiao/wis/utils/impl/ProductCsvReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ongiao/wis/utils/impl/ProductQuantyCsvReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/service/IWarehouseInventoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ongiao/wis/service/impl/WarehouseInventoryServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2088">
+          <caret line="127" column="97" selection-start-line="127" selection-start-column="97" selection-end-line="127" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/dao/ProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/service/impl/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2335">
-          <caret line="54" column="77" selection-start-line="54" selection-start-column="77" selection-end-line="54" selection-end-column="77" />
+        <state relative-caret-position="288">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/service/impl/WarehouseInventoryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="210" column="1" lean-forward="true" selection-start-line="210" selection-start-column="1" selection-end-line="210" selection-end-column="1" />
+        <state relative-caret-position="469">
+          <caret line="221" column="44" selection-start-line="221" selection-start-column="44" selection-end-line="221" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/service/impl/WarehouseServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/dao/ProductMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="24" column="83" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
+        <state relative-caret-position="108">
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/dao/WarehouseInventoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/dao/WarehouseInventoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ongiao/wis/service/impl/ProductServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
         </state>
       </provider>
     </entry>

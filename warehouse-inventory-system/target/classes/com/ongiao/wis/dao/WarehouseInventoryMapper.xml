@@ -63,4 +63,8 @@
         set quanty = quanty + #{quanty}
         where product_code = #{productCode} and location_name = #{targetLocation};
     </update>
+
+    <delete id="removeInventory" parameterType="map">
+        delete from tb_warehouse_inventory where product_code = #{productCode} and location_name = #{locationName}
+    </delete>
 </mapper>

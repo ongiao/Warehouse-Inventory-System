@@ -12,4 +12,5 @@ public interface IWarehouseInventoryService {
     Map<String, Object> addInventory(Map<String, Object> map);
     Map<String, Object> uploadInventoryCsv(List<WarehouseInventory> inventories);
     Map<String, Object> transfer(Map<String, Object> transferInfo);
+    Map<String, Object> removeInventory(String productCode, String locationName);
 }

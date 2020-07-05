@@ -13,7 +13,7 @@ import java.util.List;
 public class ProductCsvReaderTest {
     @Test
     public void TestProductCsvRead() {
-        String path = "./products.csv";
+        String path = "products.csv";
         ProductCsvReader productCsvReader = new ProductCsvReader();
         List<Product> products = productCsvReader.readProduct(path);
 

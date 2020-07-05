@@ -208,4 +208,39 @@ public class WarehouseInventoryServiceImpl implements IWarehouseInventoryService
 
         return resultMap;
     }
+
+    public Map<String, Object> removeInventory(String productCode, String locationName) {
+        Map<String, Object> resultMap = new HashMap<>();
+
+        SqlSession sqlSession = MybatisUtils.getSqlSession();
+
+        try {
+            WarehouseInventoryMapper inventoryMapper = sqlSession.getMapper(WarehouseInventoryMapper.class);
+
+            Map<String, Object> map = new HashMap<>();
+            map.put("productCode", productCode);
+            map.put("locationName", locationName);
+
+            int i = inventoryMapper.removeInventory(map);
+
+            if (i == 0) {
+                resultMap.put("result", false);
+                resultMap.put("msg", "Failed to remove the specific inventory!");
+                resultMap.put("data", null);
+                return resultMap;
+            }
+
+            sqlSession.commit();
+
+            resultMap.put("result", true);
+            resultMap.put("msg", "You have successfully remove the specific inventory!");
+            resultMap.put("data", null);
+        } catch (Exception e) {
+            logger.error(e.getMessage());
+        } finally {
+            sqlSession.close();
+        }
+
+        return resultMap;
+    }
 }

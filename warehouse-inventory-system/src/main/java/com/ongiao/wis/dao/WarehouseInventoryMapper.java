@@ -14,4 +14,5 @@ public interface WarehouseInventoryMapper {
     int addInventory(Map<String, Object> map);
     int addInventories(List<WarehouseInventory> inventories);
     int transfer(Map<String, Object> transferInfo);
+    int removeInventory(Map<String, Object> map);
 }
