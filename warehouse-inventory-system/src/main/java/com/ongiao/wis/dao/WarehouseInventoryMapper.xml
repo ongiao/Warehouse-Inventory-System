@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ongiao.wis.dao.WarehouseInventoryMapper">
+
+    <select id="getAllWarehouseInventory" resultType="map">
+        select id, product_name as productName, product_code as productCode,
+        location_name as locationName, quanty, per_weight as perWeight
+        from tb_warehouse_inventory;
+    </select>
+
+    <select id="getWareHouseInventoryByCode" parameterType="string" resultType="map">
+        select id, product_name as productName, product_code as productCode,
+        location_name as locationName, quanty, per_weight as perWeight
+        from tb_warehouse_inventory
+        where
+        product_code = #{productCode};
+    </select>
+
+    <select id="getWareHouseInventoryByCodeAndLocation" parameterType="map" resultType="map">
+        select id, product_name as productName, product_code as productCode,
+        location_name as locationName, quanty, per_weight as perWeight
+        from tb_warehouse_inventory
+        where
+        product_code = #{productCode} and location_name = #{targetLocation};
+    </select>
+
+    <insert id="addInventory"  parameterType="map">
+        insert into tb_warehouse_inventory(product_name, product_code, location_name, quanty, per_weight)
+        values
+        (
+            #{productName},
+            #{productCode},
+            #{locationName},
+            #{quanty},
+            #{perWeight}
+        )
+    </insert>
+
+    <insert id="addInventories" parameterType="list">
+        insert into tb_warehouse_inventory(product_name, product_code, location_name, quanty, per_weight)
+        values
+        <foreach collection="list" item="inventory" index="index" separator=",">
+            (
+                #{inventory.productName},
+                #{inventory.productCode},
+                #{inventory.locationName},
+                #{inventory.quanty},
+                #{inventory.perWeight}
+            )
+        </foreach>
+        on duplicate key update quanty=quanty+values(quanty)
+    </insert>
+
+    <update id="transfer" parameterType="map">
+        update tb_warehouse_inventory
+        set quanty = quanty - #{quanty}
+        where quanty - #{quanty} >= 0 and product_code = #{productCode} and location_name = #{sourceLocation};
+
+        update tb_warehouse_inventory
+        set quanty = quanty + #{quanty}
+        where product_code = #{productCode} and location_name = #{targetLocation};
+    </update>
+</mapper>

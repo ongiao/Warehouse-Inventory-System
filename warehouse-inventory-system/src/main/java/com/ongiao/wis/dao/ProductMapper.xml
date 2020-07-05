@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ongiao.wis.dao.ProductMapper">
+    <select id="getProduct" resultType="com.ongiao.wis.pojo.Product" parameterType="string">
+        select id, name, code, weight from tb_product where code=#{code}
+    </select>
+
+    <select id="getProducts" parameterType="int" resultType="map">
+        select id, name, code, weight from tb_product where status = 1 order by create_time desc;
+    </select>
+
+    <insert id="addProduct" parameterType="com.ongiao.wis.pojo.Product">
+      insert into tb_product(name, code, weight) values(#{name}, #{code}, #{weight})
+    </insert>
+
+    <insert id="addProducts" parameterType="list">
+        insert into tb_product(name, code, weight)
+        values
+        <foreach collection="list" item="product" index="index" separator=",">
+            (
+              #{product.name},
+              #{product.code},
+              #{product.weight}
+            )
+        </foreach>
+    </insert>
+
+    <!--<delete id="removeProduct" parameterType="com.ongiao.wis.pojo.Product">-->
+        <!--delete from tb_product where code = #{code}-->
+    <!--</delete>-->
+    <update id="removeProduct" parameterType="string">
+        update tb_product set status = 0, delete_time = current_timestamp
+        where code = #{code}
+    </update>
+
+    <!--<insert id="addProductsIfNotExist" parameterType="list">-->
+        <!--insert into tb_product(product_code, location_name, quanty)-->
+        <!--values-->
+        <!--<foreach collection="list" item="inventory" index="index" separator=",">-->
+            <!--(-->
+            <!--#{inventory.productCode},-->
+            <!--#{inventory.locationName},-->
+            <!--#{inventory.quanty}-->
+            <!--)-->
+        <!--</foreach>-->
+        <!--on duplicate key update quanty=quanty+values(quanty)-->
+    <!--</insert>-->
+
+    <insert id="uploadProductCsv" parameterType="list">
+        insert ignore into tb_product(name, code, weight)
+        values
+        <foreach collection="list" item="product" index="index" separator=",">
+            (
+            #{product.name},
+            #{product.code},
+            #{product.weight}
+            )
+        </foreach>
+    </insert>
+</mapper>
