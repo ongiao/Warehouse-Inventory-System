@@ -99,7 +99,13 @@ And this is the example for quanties csv file:
 
 ![image-20200705234328537](https://github.com/ongiao/Warehouse-Inventory-System/blob/master/warehouse-inventory-system/src/main/resources/images/image-20200705234328537.png)
 
-We should follow the structure of these csv file when you uploading csv file to the application.
+You should follow the structure of these csv file when you uploading csv file to the application.
+
+
+
+Or you can just simply use these two csv files for testing the functionality of uploading.
+
+![wxupload](https://github.com/ongiao/Warehouse-Inventory-System/blob/master/warehouse-inventory-system/src/main/resources/images/WX20200706-024341.png)
 
 
 
