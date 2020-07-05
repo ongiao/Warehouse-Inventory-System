@@ -26,13 +26,15 @@ Before running anything in this project, don't forget to download ***MySql*** on
 
 ![image-20200705202658067](https://github.com/ongiao/Warehouse-Inventory-System/blob/master/warehouse-inventory-system/src/main/resources/images/image-20200705202658067.png)
 
+After that, you also need to execute the [wis.sql](https://github.com/ongiao/Warehouse-Inventory-System/blob/master/warehouse-inventory-system/src/main/resources/wis.sql) file to create needed tables and data. If you request the application without executing the sql file, it will go wrong.
+
 After that, you can use any Java IDE (recommand IntelliJ IDEA) to open the whole project. It will need several time to download the dependencies. When everything is ready, you can simply right click the ***WisApplication*** file to run it.
 
-![image-20200705202242752](/Users/chenjunxing/Library/Application Support/typora-user-images/image-20200705202242752.png)
+![image-20200705202242752](https://github.com/ongiao/Warehouse-Inventory-System/blob/master/warehouse-inventory-system/src/main/resources/images/image-20200705202242752.png)
 
 When you see this as the below picture shown, it means the project is ok for receiving ang request from clients.
 
-![image-20200705202050837](/Users/chenjunxing/Library/Application Support/typora-user-images/image-20200705202050837.png)
+![image-20200705202050837](https://github.com/ongiao/Warehouse-Inventory-System/blob/master/warehouse-inventory-system/src/main/resources/images/image-20200705202050837.png)
 
 The default port for this project is 8080, so you can test the apis through localhost:8080/
 
@@ -75,17 +77,17 @@ POST "/transfermation": Transfer inventory from one location to another location
 
 This is the page for getting all the products:
 
-![image-20200705203916539](/Users/chenjunxing/Library/Application Support/typora-user-images/image-20200705203916539.png)
+![image-20200705203916539](https://github.com/ongiao/Warehouse-Inventory-System/blob/master/warehouse-inventory-system/src/main/resources/images/image-20200705203916539.png)
 
 This is the page for getting all the inventories:
 
-![image-20200705203955363](/Users/chenjunxing/Library/Application Support/typora-user-images/image-20200705203955363.png)
+![image-20200705203955363](https://github.com/ongiao/Warehouse-Inventory-System/blob/master/warehouse-inventory-system/src/main/resources/images/image-20200705203955363.png)
 
 This is the page for performing transfermation:
 
-![image-20200705204036210](/Users/chenjunxing/Library/Application Support/typora-user-images/image-20200705204036210.png)
+![image-20200705204036210](https://github.com/ongiao/Warehouse-Inventory-System/blob/master/warehouse-inventory-system/src/main/resources/images/image-20200705204036210.png)
 
 You can upload csv files by choosing the csv file and clicking the upload button:
 
-![image-20200705204357525](/Users/chenjunxing/Library/Application Support/typora-user-images/image-20200705204357525.png)
+![image-20200705204357525](https://github.com/ongiao/Warehouse-Inventory-System/blob/master/warehouse-inventory-system/src/main/resources/images/image-20200705204357525.png)
 
