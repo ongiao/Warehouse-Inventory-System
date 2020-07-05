@@ -91,3 +91,74 @@ You can upload csv files by choosing the csv file and clicking the upload button
 
 ![image-20200705204357525](https://github.com/ongiao/Warehouse-Inventory-System/blob/master/warehouse-inventory-system/src/main/resources/images/image-20200705204357525.png)
 
+
+
+### Short Daily
+
+#### Day One:
+
+1. System design
+   - Because it is a lightweight system, the business logics are not complex. Considering for that, I used SpringBoot for the platform, MySql for the database, MyBatis for persistence framework
+2. Database design
+   - I designed 3 tables in the Warehouse Inventory System's database. The first one is "tb_product" for Product model, the second one is "tb_warehouse" for Warehouse model, and the last one is "tb_warehouse_inventory" for WarehouseInventory model.
+3. Wrote short daily
+
+#### Day Two:
+
+1. Designed Restful APIs
+2. Wrote business logis for controller, service, dao, model, utils, etc
+3. Wrote unit tests
+4. Fixed bugs found in testing
+
+
+
+#### Day Three:
+
+1. Continued on developing front end page
+2. Wrote documentations for README.md and short daily
+
+
+
+#### What I learned:
+
+1. The usage of Thymeleaf for front end part
+2. Frontend development. (HTML, CSS, JQuery)
+3. How to ensure the transactional correctness in xml
+4. Interface-based programming
+
+
+
+#### What I tried:
+
+Because my focus was on backend side, doing frontend development was not so familiar to me. I spent some time on learning Thymeleaf and developing front end page based on Thymeleaf engine. 
+
+
+
+#### Problems I encountered:
+
+1. The default level for idea language is 5 (JDK1.5), so I just modify the level to 8 in Project Structure.
+
+![image-20200705232508139](/Users/chenjunxing/Library/Application Support/typora-user-images/image-20200705232508139.png)
+
+But every time I import a new maven dependency, it will automatically change back to 5. My solution was specifying the value of language level to 8 by adding this plugin in pom.xml to prevent reseting the automatic language level each time.
+
+```xml
+<build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.5.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+```
+
+
+
+
+
