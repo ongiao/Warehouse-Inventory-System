@@ -75,11 +75,11 @@ public class ProductController extends BaseController {
     @RequestMapping(value = "/products/csv", method = RequestMethod.POST)
     public String uploadProductCsv(HttpServletRequest request, @RequestParam("file") MultipartFile file) {
         if (file.isEmpty()) {
-            System.out.println("Please select a file!");
+            logger.error("Please select a file!");
         }
 
         if (!file.getContentType().equals("text/csv")) {
-            System.out.println("We just support to upload a csv file!");
+            logger.error("We just support to upload a csv file!");
         }
 
         String fileName = "";
@@ -106,10 +106,6 @@ public class ProductController extends BaseController {
         } catch (Exception e) {
             logger.error("Failed to upload csv file!");
             logger.error(e.getMessage());
-        } finally {
-            if (uploadFile != null) {
-                uploadFile.deleteOnExit();
-            }
         }
 
         return this.redirect("/products");

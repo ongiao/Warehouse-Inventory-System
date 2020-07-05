@@ -24,8 +24,6 @@ public class WarehouseServiceImpl implements IWarehouseService {
             WarehouseMapper warehouseMapper = sqlSession.getMapper(WarehouseMapper.class);
             List<Map<String, Object>> warehouses = warehouseMapper.getWarehouses();
 
-            System.out.println(warehouses);
-
             if (warehouses == null || warehouses.size() == 0) {
                 resultMap.put("result", false);
                 resultMap.put("msg", "There is no warehouse.");

@@ -54,8 +54,6 @@ public class ProductServiceImpl implements IProductService {
             ProductMapper productMapper = sqlSession.getMapper(ProductMapper.class);
             List<Map<String, Object>> products = productMapper.getProducts();
 
-            System.out.println(products);
-
             if (products == null || products.size() == 0) {
                 resultMap.put("result", false);
                 resultMap.put("msg", "There is no products.");
