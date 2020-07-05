@@ -138,7 +138,7 @@ Because my focus was on backend side, doing frontend development was not so fami
 
 1. The default level for idea language is 5 (JDK1.5), so I just modify the level to 8 in Project Structure.
 
-![image-20200705232508139](/Users/chenjunxing/Library/Application Support/typora-user-images/image-20200705232508139.png)
+![image-20200705232508139](https://github.com/ongiao/Warehouse-Inventory-System/blob/master/warehouse-inventory-system/src/main/resources/images/image-20200705232508139.png)
 
 But every time I import a new maven dependency, it will automatically change back to 5. My solution was specifying the value of language level to 8 by adding this plugin in pom.xml to prevent reseting the automatic language level each time.
 
