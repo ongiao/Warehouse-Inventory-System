@@ -6,7 +6,7 @@ This is a warehouse inventory management system which is based on ***SpringBoot,
 
 The program has the follow structures in the src/main/java package:
 
-![image-20200705202145758](/Users/chenjunxing/Library/Application Support/typora-user-images/image-20200705202145758.png)
+![aaa](https://github.com/ongiao/Warehouse-Inventory-System/blob/master/warehouse-inventory-system/src/main/resources/images/image-20200705202145758.png)
 
 ##### java/com/ongiao/wis:
 
@@ -24,7 +24,7 @@ This project has unit tests in the ***src/test*** package.
 
 Before running anything in this project, don't forget to download ***MySql*** on you local computer. Besides, you need to modify ***database.properties*** to change the ***url, username, password*** to you own one.
 
-![image-20200705202658067](/Users/chenjunxing/Library/Application Support/typora-user-images/image-20200705202658067.png)
+![image-20200705202658067](https://github.com/ongiao/Warehouse-Inventory-System/blob/master/warehouse-inventory-system/src/main/resources/images/image-20200705202658067.png)
 
 After that, you can use any Java IDE (recommand IntelliJ IDEA) to open the whole project. It will need several time to download the dependencies. When everything is ready, you can simply right click the ***WisApplication*** file to run it.
 
