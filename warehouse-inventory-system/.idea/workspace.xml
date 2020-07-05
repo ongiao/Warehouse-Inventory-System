@@ -64,11 +64,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductServiceTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ongiao/wis/service/impl/ProductServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+            <state relative-caret-position="330">
+              <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -86,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/dao/WarehouseInventoryMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
-              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -116,11 +125,6 @@
               <caret line="6" column="60" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="60" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="products.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/products.csv">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -154,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/controller/WarehouseInventoryController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/public/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/themes/default/index.html" />
@@ -205,6 +208,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/dao/WarehouseInventoryMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ongiao/wis/dao/WarehouseInventoryMapper.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/ongiao/wis/service/impl/ProductServiceTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -324,6 +328,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="warehouse-inventory-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="warehouse-inventory-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="warehouse-inventory-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="warehouse-inventory-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="warehouse-inventory-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="warehouse-inventory-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="error" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="warehouse-inventory-system" type="b2602c69:ProjectViewProjectNode" />
@@ -614,17 +644,11 @@
       <workItem from="1593953955787" duration="113000" />
       <workItem from="1593954126134" duration="660000" />
       <workItem from="1593958218520" duration="16000" />
-      <workItem from="1593963306933" duration="4788000" />
+      <workItem from="1593963306933" duration="5170000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WarehouseInventoryServiceTest_testAddInventory - 2020.07.06 at 01h 57m 51s.xml">
-      <configuration name="WarehouseInventoryServiceTest.testAddInventory" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WarehouseInventoryServiceTest_testAddInventory - 2020.07.06 at 01h 58m 12s.xml">
-      <configuration name="WarehouseInventoryServiceTest.testAddInventory" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WarehouseInventoryServiceTest_testAddInventory - 2020.07.06 at 01h 58m 40s.xml">
       <configuration name="WarehouseInventoryServiceTest.testAddInventory" configurationId="JUnit" />
     </history-entry>
@@ -649,9 +673,15 @@
     <history-entry file="All_in_warehouse-inventory-system - 2020.07.06 at 02h 13m 02s.xml">
       <configuration name="All in warehouse-inventory-system" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ProductServiceTest_TestGetProductList - 2020.07.06 at 02h 15m 53s.xml">
+      <configuration name="ProductServiceTest.TestGetProductList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_warehouse-inventory-system - 2020.07.06 at 02h 16m 06s.xml">
+      <configuration name="All in warehouse-inventory-system" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130320000" />
+    <option name="totallyTimeSpent" value="130702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -705,13 +735,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ongiao/wis/pojo/WarehouseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/pojo/WarehouseInventory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1023,14 +1046,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ongiao/wis/dao/WarehouseInventoryMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ongiao/wis/service/impl/ProductServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        <state relative-caret-position="330">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>

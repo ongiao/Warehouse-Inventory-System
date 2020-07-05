@@ -1,3 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Java template
 # Compiled class file
 *.class
 
@@ -21,3 +23,18 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+log/all.log
+log/error.log
+target/classes/com/ongiao/wis/WisApplication.class
+target/classes/com/ongiao/wis/constants/
+target/classes/com/ongiao/wis/controller/
+target/classes/com/ongiao/wis/dao/ProductMapper.class
+target/classes/com/ongiao/wis/dao/WarehouseInventoryMapper.class
+target/classes/com/ongiao/wis/dao/WarehouseMapper.class
+target/classes/com/ongiao/wis/pojo/
+target/classes/com/ongiao/wis/service/
+target/classes/com/ongiao/wis/utils/
+target/generated-sources/
+target/generated-test-sources/
+target/test-classes/
