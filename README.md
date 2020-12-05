@@ -1,5 +1,7 @@
 # Warehouse Inventory System
 
+> This project was for HKTVmall interview test.
+
 ### Introduction
 
 This is a warehouse inventory management system which is based on ***SpringBoot, MyBatis, Thymeleaf, MySql, etc***.
